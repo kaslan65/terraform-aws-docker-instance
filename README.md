@@ -14,6 +14,8 @@ provider "aws" {
 
 module "docker_instance" {
     source = "kaslan65/docker-instance/aws"
-    key_name = "firstkey"
+    key_name = "enter your key name"
+    tag = "enter your tag"
+    instance_type = "choose your instance type"
 }
 ```
